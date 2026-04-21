@@ -1,2 +1,2 @@
-# agentic-ml-experiments
+# Agentic-ML Experiments
 Experiments run with Agentic-ML.

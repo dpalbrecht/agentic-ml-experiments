@@ -1,3 +1,12 @@
+/iris/.gitignore
+/movielens-32m/.gitignore
+
+*.claude
+*.csv
+*CLAUDE.md
+*install.sh
+*todo.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

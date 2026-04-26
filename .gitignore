@@ -1,6 +1,3 @@
-/iris/.gitignore
-/movielens-32m/.gitignore
-
 *.claude
 *.csv
 *CLAUDE.md

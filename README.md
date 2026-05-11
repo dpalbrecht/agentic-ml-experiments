@@ -7,6 +7,7 @@ Experiment runs using the [agentic-ml](https://github.com/dpalbrecht/agentic-ml)
 | Directory | Problem | Dataset | Outcome |
 |-----------|---------|---------|---------|
 | [synthetic/test-1b](synthetic/test-1b/README.md) | Binary classification, known ground truth | Synthetic (5K rows, 50 features, 3 real) | Found true decision boundary; plateaued at 87.8% vs 90% ceiling |
+| [synthetic/test-2](synthetic/test-2/README.md) | Churn prediction, temporal leakage trap | Synthetic (8K rows, 24 months, 2 leakage features) | Caught leakage; met F2 ≥ 0.90 threshold (experiment 006, tuned RF) |
 | [iris](iris/README.md) | 3-class classification | Iris (150 rows, 4 features) | Met 97% threshold (experiment 004, linear SVM) |
 | [movielens-32m](movielens-32m/README.md) | Top-N recommendation | MovieLens 32M (32M interactions) | Met NDCG@10 threshold at +84% over popularity baseline (ALS) |
 
